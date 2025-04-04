@@ -1,0 +1,110 @@
+/* Other Pages */
+
+.pg-top {
+	background: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	font-family: "Work Sans", sans-serif;
+	margin: 0 0 0 0;
+}
+
+
+/* Designs Page */
+
+.designs .row {
+	display: flex;
+}
+
+/* WebDev Projects Page, Resources Page */
+
+.wd-sect, .res-sect {
+	background-color: var(--col1);
+}
+
+.wd-sect .row, .res-sect .row {
+	display: flex;
+	justify-content: center;
+}
+
+.wd-sect .project-card {
+	margin-left: 21px;
+	margin-right: 21px;
+	margin-bottom: 28px;
+	padding: 21px 21px 21px 7px;
+	width: 240px;
+}
+
+
+/* Connect Page */
+
+.connect {
+    background-color: var(--col1);
+    color: var(--col2);
+    font-family: var(--font1);
+    padding: 54px 0;
+}
+
+.connect-img img {
+    border-radius: 50%;
+    height: 350px;
+    width: auto;
+}
+
+.connect-ct h1 {
+    font-weight: 500;
+}
+
+.connect-ct h5 {
+    margin-top: -7px;
+}
+
+.connect-ct h6 {
+    margin-bottom: 0px;
+}
+
+.connect-ct hr {
+    border: solid 1px #aaa8ba;
+    border-radius: 2px;
+    color: #aaa8ba;
+    width: 72px;
+    opacity: 1;
+}
+
+.connect-ct i {
+    color: var(--col2);
+}
+
+/* FSGDC with PixelLab Page */
+
+.mynav {
+    color: #fff;
+}
+
+.mynav li a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+.mynav li a.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.mynav li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.mynav li a i {
+    width: 25px;
+    text-align: center;
+}
+
+.notification-badge {
+    background-color: rgba(255, 255, 255, 0.7);
+    float: right;
+    color: #222;
+    font-size: 14px;
+    padding: 0px 8px;
+    border-radius: 2px;
+}

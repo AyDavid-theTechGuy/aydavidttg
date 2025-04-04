@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"
+		/>
+		<title>Ay David, the Tech Guy</title>
+		<link rel="icon" type="image/x-icon" href="./assets/img/svg/code2.svg">
+		<link 
+			rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link
+			rel="stylesheet"
+			href="./assets/bootstrap-5.2.3/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./assets/stylesheets/style.css"
+			type="text/css"
+		/>
+		<script defer src="./assets/js/navbar.js"></script>
+		<script defer src="./assets/js/footer.js"></script>
+		<script defer src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+		<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script defer src="./assets/js/script.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFS6KMCL0G"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-NFS6KMCL0G');
+		</script>
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg pt-2 pb-2"></nav>
+		
+		<!-- CONNECT -->
+		<section class="connect">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 connect-img pt-1 pb-3">
+						<img src="./assets/img/aydavid2.png"/>
+					</div>
+					<div class="col-lg-6 connect-ct my-auto">
+						<h6>Hello 👋&nbsp;</h6>
+						<h1>Ay David</h1>
+						<h5 class="pt-3">Ayoola David Sowunmi</h5>
+						<hr>
+						<p>He is a lover of God, a prolific web developer and graphics designer ardent about designing and developing to make the world a better place ✨</p>
+						<h5 class="pt-3">Education</h5>
+						<hr>
+						<p>By God's grace, he studied Computer Science from the prestigious Federal University of Agriculture, Abeokuta (FUNAAB).</p>
+						<!-- <h5 class="pt-3">Skillset</h5>
+						<hr>
+						<div class="row">
+							<div class="col-sm-6">
+								<h6>Graphics Designing</h6>
+								<div class="progress-bar bg-primary" role="progressbar"></div>
+							</div>
+						</div> -->
+						<h5 class="pt-3">Let's go Social</h5>
+						<hr>
+						<div class="row text-start d-flex justify-content-center">
+							<div class="col-md-6">
+			                	<div class="d-flex">
+				                    <a href="https://instagram.com/thecreativeayd" class="d-flex">
+				                        <i class="bi bi-instagram fs-4 pe-1"></i>
+										<span class="pt-1">@thecreativeayd</span>
+				                    </a>
+				                </div>
+			                </div>
+							<div class="col-md-6">
+			                	<div class="d-flex">
+				                    <a href="https://facebook.com/aydavidttg" class="d-flex">
+				                        <i class="bi bi-facebook fs-4 pe-1"></i>
+										<span class="pt-1">aydavidttg</span>
+				                    </a>
+				                </div>
+			                </div>
+			                <div class="col-md-6">
+			                    <div class="d-flex">
+			                      <i class="bi bi-envelope fs-4"></i>
+			                      <span class="ps-2 pt-1">aydavidfjc@gmail.com</span>
+			                    </div>
+			                </div>
+							<div class="col-md-6">
+			                	<div class="d-flex">
+				                    <a href="https://github.com/AyDavid-theTechGuy" class="d-flex">
+				                        <i class="bi bi-github fs-4 pe-1"></i>
+										<span class="pt-1">AyDavid-theTechGuy</span>
+				                    </a>
+				                </div>
+			                </div>
+							
+			                <div class="col-lg-12 pt-1">
+			                	<div class="d-flex text-start">
+				                    <a href="https://thecreativeayd.com.ng" class="d-flex">
+				                        <i class="bi bi-globe fs-4 pe-1"></i>
+										<span class="pt-1">https://thecreativeayd.com.ng</span>
+				                    </a>
+				                </div>
+			                </div>
+			            </div>
+					</div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- WHATSAPP QUICK CONTACT -->
+		<div class="wa-qc fixed-bottom ms-auto"></div>
+
+		<!-- Footer -->
+		<footer class="footer pt-4" id="connect"></footer>
+
+		<script>
+			// Sticky Navbar
+			const header = document.querySelector(".hero");
+			const headerHeight = header.getBoundingClientRect().height;
+			const navbar = document.querySelector(".navbar");
+
+			window.addEventListener('scroll', function() {
+				if(window.scrollY > headerHeight) {
+					navbar.classList.add("fixed-top");
+					navbar.style.boxShadow = "0 0 15px #d1d1d1";
+				} else {
+					navbar.classList.remove("fixed-top");
+					navbar.style.boxShadow = "none";
+				}
+			});
+		</script>
+	</body>
+</html>

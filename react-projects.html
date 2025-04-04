@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"
+		/>
+		<title>React Projects</title>
+		<link rel="icon" type="image/x-icon" href="./assets/img/svg/code2.svg">
+		<link 
+			rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link
+			rel="stylesheet"
+			href="./assets/bootstrap-5.2.3/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./assets/stylesheets/style.css"
+			type="text/css"
+		/>
+		<script defer src="./assets/js/navbar.js"></script>
+		<script defer src="./assets/js/footer.js"></script>
+		<script defer src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+		<script defer src="./assets/js/script.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFS6KMCL0G"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-NFS6KMCL0G');
+		</script>
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg pt-2 pb-2"></nav>
+
+		<section class="pg-top pt-5 pb-3">
+			<div class="container">
+				<div class="row text-center">
+					<h1>
+						<b>React Projects</b>
+					</h1>
+				</div>
+			</div>
+			<br />
+		</section>
+
+		<section class="wd-sect">
+			<div class="container pt-5">
+				<!-- React -->
+				<div class="react">
+					<div class="row py-5 row--2"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- WHATSAPP QUICK CONTACT -->
+		<div class="wa-qc fixed-bottom ms-auto"></div>
+
+		<!-- Footer -->
+		<footer class="footer pt-4" id="connect"></footer>
+
+		<script>
+			const reactRow = document.querySelector('.react .row--2');
+			const reactProjs = ["TicTacToe + https://tictactoe-react-ayd.vercel.app", "React Advice + https://react-advice-ayd.vercel.app", "React Time Clock + https://react-time-clock.vercel.app", "React Profile Card + https://react-profile-card-ayd.vercel.app", "Pizza Menu + https://pizza-menu-ayd.vercel.app", "React Steps + https://react-steps-ayd.vercel.app", "React Flashcards + https://react-flashcards-ayd.vercel.app", "Date Counter + https://date-counter-ayd.vercel.app", "Travel List + https://travel-list-ayd.vercel.app", "React-Accordion + https://react-accordion-ayd.vercel.app", "Tip Calculator + https://tip-calculator-ayd.vercel.app", "Eat-n-Split + https://eat-n-split-ayd.vercel.app", "To-Do App + https://to-do-app-ayd.vercel.app"];
+
+			for (let i = 12; i >= 0; i--) {
+				let projArr = reactProjs[i].split('+')
+				let projName = projArr[0].trim();
+				let projUrl = projArr[1].trim(); 
+
+				let html = `
+				<div class="project-card project-card--2">
+					<img src="./assets/img/svg/web.svg">
+					<h5 class="pb-2">${projName}</h5>
+					<a href="${projUrl}" class="btn btn-primary">View</a>
+				</div>`;
+
+				reactRow.insertAdjacentHTML('afterbegin', html);
+			}
+		</script>
+	</body>
+</html>

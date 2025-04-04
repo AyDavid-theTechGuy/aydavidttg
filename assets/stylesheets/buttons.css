@@ -1,0 +1,87 @@
+/* Buttons Style */
+
+/* Hero Button, Need-a-Website Button */
+
+.hero-btn, .ayd-btn {
+	background: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	color: var(--col3);
+	padding: 12px 19px;
+}
+
+.hero-btn:hover, .ayd-btn:hover {
+	background: transparent;
+	color: var(--col1);
+	border: solid 2px #ccdfdc;
+	padding: 10px 17px;
+}
+
+.ayd-btn.hire:hover {
+	background: transparent;
+	color: var(--col3);
+	border: solid 2px var(--col3);
+	padding: 10px 17px;
+}
+
+/* Hero Button */
+
+.hero-btn {
+	border-radius: 21px;
+	font-size: 16px;
+}
+
+/* Ayd Button */
+
+.ayd-btn {
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+/* Web Dev Nav Buttons */
+
+.wd-btn, .gd-btn {
+	background-color: #eeeef5;
+	color: #3e3e43;
+	border: solid 2px #eeeef5;
+	font-size: 15px;
+	padding: 7px 24px;
+}
+
+
+.wd-btn:hover, .gd-btn:hover {
+	background-color: #3e3e43;
+	color: #eeeef5;
+	border: solid 2px #3e3e43;
+}
+
+/* WebTemp Btn */
+
+.web-temp-btn, .pj-btn,  {
+	border-radius: 25px;
+	font-family: "Mulish", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.web-temp-btn {
+	background: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	color: var(--col2);
+	border: solid 2px #ccdfdc;
+	font-size: 16px;
+}
+
+.web-temp-btn:hover {
+	background: transparent;
+	color: var(--col2);
+	border: solid 2px var(--col2);
+}
+
+.web-temp-btn {
+	padding: 12px 37px;
+}
+
+/* Post Button */
+
+.post-btn {
+	font-family: "Mulish", sans-serif;
+	letter-spacing: 1px;
+}
